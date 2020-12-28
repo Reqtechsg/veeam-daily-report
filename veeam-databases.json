@@ -1,0 +1,10 @@
+﻿[
+    {
+        "datasource":"ADPBKSP01\\VEEAMSQL2012",
+        "database":"VeeamBackup"
+    },
+    {
+        "datasource":"SCPBKSP01\\VEEAMSQL2012",
+        "database":"VeeamBackup"
+    }
+]

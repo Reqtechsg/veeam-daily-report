@@ -1,0 +1,44 @@
+<style type="text/css">
+		body{
+			letter-spacing:0.5px;
+			font-family:"Trebuchet MS";
+			font-size:11px;
+			color:#303030;
+		}
+		div{
+			max-width:800px;
+		}
+		
+		table{
+			margin-top: 8px;
+			margin-bottom: 8px;	
+			border: 1px solid #303030;
+		}
+		
+		tr:nth-child(even) {background: #E0F0E0;}
+		tr:nth-child(odd) {background: #F0F0F0;}
+		
+		thead{
+			border: 1px solid #303030;
+		}
+		
+		tr{
+			border: 1px solid #303030;
+		}
+		
+		th{
+			background-color:#008000;
+			color:white;	
+		}
+		
+		td,th{
+			border: 0px;
+			text-align:left;
+			padding-left:8px;
+			padding-right:8px;
+			padding-top:2px;
+			padding-bottom:2px;
+			font-size:11px;			
+		}
+
+</style>
