@@ -1,7 +1,5 @@
 USE	VeeamBackup;
 
-USE	VeeamBackup;
-
 WITH cte AS
 (
 SELECT	js.id, 
