@@ -1,5 +1,0 @@
-$action = New-ScheduledTaskAction -Execute powershell.exe -Argument "-file C:\Veeam-Scripts\veeam-report.ps1"
-$trigger = New-ScheduledTaskTrigger -Daily -At 07:30
-$principal = New-ScheduledTaskPrincipal -UserId salgrp\adminservice$ -LogonType Password
-Register-ScheduledTask -Action $action -Trigger $trigger -Principal $principal -TaskName "Send Veeam Report Email" -TaskPath "\Veeam\"
-
