@@ -1,6 +1,6 @@
 ﻿{
-    "from":"SAL Veeam Backup <noreply@sal.org.sg>",
-    "to":"sirius_req@sal.org.sg",
-    "subject":"SAL Veeam Backup - Daily Notification",
-    "smtpServer":"192.168.0.32"
+    "from":"noreply@mortaladmin.me",
+    "to":"noreply@mortaladmin.me",
+    "subject":"Veeam Backup - Daily Notification",
+    "smtpServer":"smtp.mortaladmin.me"
 }

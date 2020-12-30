@@ -16,7 +16,7 @@
         $htmlTopFilePath="$($PSScriptRoot)\veeam-report-html-top.txt"
     )
 
-    $summary = $DataTable | Group-Object "Last Result"
+    $summary = $DataTable | Group-Object "Result"
 
     $htmlTop = (Get-Content $htmlTopFilePath )
 
@@ -45,7 +45,9 @@
         $html = $html + "</tr>"
     }
 
-    $html  = $html + "</tbody></table></div><br>For more information, login to <a href=""https://veeam-ent-mgr.salgrp.sal.sg:9443"">Veeam Enterprise Manager</a></body></html>" 
+    #$html  = $html + "</tbody></table></div><br>For more information, login to <a href="""">Veeam Enterprise Manager</a></body></html>" 
+    
+    $html  = $html + "</tbody></table></div>"
 
     $html | Out-File $Path
 }

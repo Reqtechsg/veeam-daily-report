@@ -1,10 +1,16 @@
 ﻿[
     {
         "datasource":"ADPBKSP01\\VEEAMSQL2012",
-        "database":"VeeamBackup"
+        "database":"VeeamBackup",
+        "userId":"",
+        "password":"",
+        "integratedSecurity":true
     },
     {
         "datasource":"SCPBKSP01\\VEEAMSQL2012",
-        "database":"VeeamBackup"
+        "database":"VeeamBackup",
+        "userId":"",
+        "password":"",
+        "integratedSecurity":true
     }
 ]
