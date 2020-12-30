@@ -33,4 +33,3 @@ SELECT		[server] AS [Veeam Server],
 FROM		cte
 WHERE		creation_time  = last_creation_time
 ORDER BY	job_name
-

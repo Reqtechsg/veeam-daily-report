@@ -40,5 +40,4 @@
 			padding-bottom:2px;
 			font-size:11px;			
 		}
-
 </style>
